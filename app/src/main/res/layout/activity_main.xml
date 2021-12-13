@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+    <com.example.andersen_homework4.MyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:hourLineColor="@color/black"
+        app:hourLineWidth="10.0"
+        app:minuteLineColor="@color/black"
+        app:minuteLineWidth="8.0"
+        app:secondLineColor="@color/red"
+        app:secondLineWidth="3.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
